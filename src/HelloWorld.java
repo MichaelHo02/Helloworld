@@ -3,13 +3,16 @@ import java.lang.Math;
 
 public class HelloWorld {
     public static void main(String[] args) {
-//        test(); // p1
-//        divisible(); //p2
-//        checkCircle(); // p3
-//        table(); //p4
-//        display(); //p5
-        pyramid();
-    }
+    //      question w1
+    //        test(); // p1
+    //        divisible(); //p2
+    //        checkCircle(); // p3
+    //        table(); //p4
+    //        display(); //p5
+    //        pyramid(); // p6
+
+    //        question w2
+        }
     public static void test() {
         Scanner input = new Scanner(System.in);
         int[] num = new int[3];
@@ -41,7 +44,7 @@ public class HelloWorld {
 
     public static void checkCircle() {
         Scanner input = new Scanner(System.in);
-        System.out.println("Enter first coordinate");
+        System.out.println("Enter first coord2inate");
         Coordinate a = new Coordinate();
         System.out.print("Enter x: ");
         a.x = input.nextFloat();
